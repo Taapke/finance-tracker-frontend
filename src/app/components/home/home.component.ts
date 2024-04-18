@@ -3,6 +3,7 @@ import {MatToolbar} from "@angular/material/toolbar";
 import {MatIcon} from "@angular/material/icon";
 import {MatIconButton} from "@angular/material/button";
 import {RouterLink, RouterOutlet} from "@angular/router";
+import {FinanceImportComponent} from "../finance-import/finance-import.component";
 
 @Component({
   selector: 'app-home',
@@ -12,7 +13,8 @@ import {RouterLink, RouterOutlet} from "@angular/router";
     MatIcon,
     MatIconButton,
     RouterLink,
-    RouterOutlet
+    RouterOutlet,
+    FinanceImportComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
