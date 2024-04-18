@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  a:link, a:visited, a:focus {
+    text-decoration: none;
+    color: white;
+  }
+  .spacer {
+    flex: 1 1 auto;
+  }
+
+  .home {
+    margin: 2rem;
+  }
+}
